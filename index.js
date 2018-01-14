@@ -46,4 +46,4 @@ const asyncLogSources = []
 for (let i = 0; i < sourceCount; i++) {
 	asyncLogSources.push(getAsyncLogSource())
 }
-// require('./solution/async-sorted-merge')(asyncLogSources, new Printer())
+require('./solution/async-sorted-merge')(asyncLogSources, new Printer())

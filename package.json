@@ -1,7 +1,7 @@
 {
   "name": "interviews",
   "version": "1.0.0",
-  "description": "BuildingConnected Coding Challenge",
+  "description": "s",
   "main": "index.js",
   "scripts": {
     "test": "ava",

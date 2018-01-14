@@ -2,9 +2,7 @@
 
 module.exports = (logSources, printer) => {
 
-  let sortedLogs = logSources.map(source => source.pop())
-  
-  sortedLogs.sort((a, b) => {
+  let sortedLogs = logSources.map(source => source.pop()).sort((a, b) => {
   	a = a.date
   	b = b.date
     return a - b
