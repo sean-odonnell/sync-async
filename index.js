@@ -33,7 +33,6 @@ for (let i = 0; i < sourceCount; i++) {
 }
 require('./solution/sync-sorted-merge')(syncLogSources, new Printer())
 
-
 /**
  * Challenge Number 2!
  *
@@ -47,3 +46,4 @@ for (let i = 0; i < sourceCount; i++) {
 	asyncLogSources.push(getAsyncLogSource())
 }
 require('./solution/async-sorted-merge')(asyncLogSources, new Printer())
+
